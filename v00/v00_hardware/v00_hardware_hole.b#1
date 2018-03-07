@@ -158,16 +158,17 @@
 </layers>
 <board>
 <plain>
-<wire x1="33.02" y1="73.66" x2="33.02" y2="27.94" width="0.1524" layer="20"/>
-<wire x1="33.02" y1="73.66" x2="53.34" y2="93.98" width="0.1524" layer="20" curve="-90"/>
-<wire x1="53.34" y1="93.98" x2="99.06" y2="93.98" width="0.1524" layer="20"/>
-<wire x1="99.06" y1="93.98" x2="119.38" y2="73.66" width="0.1524" layer="20" curve="-90"/>
-<wire x1="119.38" y1="73.66" x2="119.38" y2="27.94" width="0.1524" layer="20"/>
-<wire x1="119.38" y1="27.94" x2="99.06" y2="7.62" width="0.1524" layer="20" curve="-90"/>
-<wire x1="99.06" y1="7.62" x2="52.07" y2="7.62" width="0.1524" layer="20"/>
-<wire x1="52.07" y1="7.62" x2="33.02" y2="27.94" width="0.1524" layer="20" curve="-90"/>
+<wire x1="33.02" y1="73.66" x2="33.02" y2="27.94" width="0.1524" layer="18"/>
+<wire x1="33.02" y1="73.66" x2="53.34" y2="93.98" width="0.1524" layer="17" curve="-90"/>
+<wire x1="53.34" y1="93.98" x2="99.06" y2="93.98" width="0.1524" layer="18"/>
+<wire x1="99.06" y1="93.98" x2="119.38" y2="73.66" width="0.1524" layer="18" curve="-90"/>
+<wire x1="119.38" y1="73.66" x2="119.38" y2="27.94" width="0.1524" layer="18"/>
+<wire x1="119.38" y1="27.94" x2="99.06" y2="7.62" width="0.1524" layer="18" curve="-90"/>
+<wire x1="99.06" y1="7.62" x2="52.07" y2="7.62" width="0.1524" layer="18"/>
+<wire x1="52.07" y1="7.62" x2="33.02" y2="27.94" width="0.1524" layer="18" curve="-90"/>
 <wire x1="76.2" y1="95.25" x2="76.2" y2="6.35" width="0.1524" layer="21"/>
 <wire x1="31.75" y1="50.8" x2="120.65" y2="50.8" width="0.1524" layer="21"/>
+<circle x="76.2" y="50.8" radius="25.4" width="0.1524" layer="20"/>
 </plain>
 <libraries>
 <library name="adafruit">
@@ -556,8 +557,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="LED2" library="adafruit" package="LED5MM" value="" x="76.2" y="12.7"/>
 <element name="LED3" library="adafruit" package="LED5MM" value="" x="38.1" y="50.8" rot="R270"/>
 <element name="LED4" library="adafruit" package="LED5MM" value="" x="114.3" y="50.8" rot="R90"/>
-<element name="JP6" library="adafruit" package="1X01" value="" x="55.88" y="11.43"/>
-<element name="JP7" library="adafruit" package="1X01" value="" x="63.5" y="19.05"/>
+<element name="JP6" library="adafruit" package="1X01" value="" x="39.37" y="-7.62"/>
+<element name="JP7" library="adafruit" package="1X01" value="" x="39.37" y="-27.94"/>
 </elements>
 <signals>
 <signal name="N$7">
@@ -568,17 +569,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="109.22" y1="71.12" x2="109.22" y2="40.64" width="1" layer="16"/>
 <wire x1="109.22" y1="40.64" x2="88.15400625" y2="19.57400625" width="1" layer="16"/>
 <wire x1="88.15400625" y1="19.57400625" x2="74.18689375" y2="19.57400625" width="1" layer="16"/>
-<wire x1="72.3928875" y1="17.78" x2="74.18689375" y2="19.57400625" width="1" layer="16"/>
+<wire x1="72.3928875" y1="17.78" x2="63.5" y2="17.78" width="1" layer="16"/>
+<wire x1="74.18689375" y1="19.57400625" x2="72.3928875" y2="17.78" width="1" layer="16"/>
 <wire x1="47.888025" y1="18.369871875" x2="46.99" y2="17.471846875" width="1" layer="16"/>
+<wire x1="46.99" y1="17.471846875" x2="46.99" y2="12.7" width="1" layer="16"/>
+<wire x1="46.99" y1="12.7" x2="48.26" y2="11.43" width="1" layer="16"/>
 <contactref element="JP6" pad="1"/>
 <contactref element="JP7" pad="1"/>
-<wire x1="46.99" y1="12.7" x2="49.53" y2="10.16" width="1" layer="16"/>
-<wire x1="54.61" y1="10.16" x2="55.88" y2="11.43" width="1" layer="16"/>
-<wire x1="46.99" y1="17.471846875" x2="46.99" y2="12.7" width="1" layer="16"/>
-<wire x1="49.53" y1="10.16" x2="54.61" y2="10.16" width="1" layer="16"/>
-<wire x1="63.5" y1="19.05" x2="64.77" y2="17.78" width="1" layer="16"/>
-<wire x1="64.77" y1="17.78" x2="72.3928875" y2="17.78" width="1" layer="16"/>
-<wire x1="55.88" y1="11.43" x2="63.5" y2="19.05" width="1" layer="1"/>
+<wire x1="47.888025" y1="18.369871875" x2="63.5" y2="17.78" width="0" layer="19" extent="16-16"/>
+<wire x1="39.37" y1="-7.62" x2="48.26" y2="11.43" width="0" layer="19" extent="16-16"/>
+<wire x1="39.37" y1="-27.94" x2="39.37" y2="-7.62" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$8">
 <contactref element="R2" pad="1"/>
@@ -586,14 +586,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="49.373321875" y1="15.6504375" x2="49.373321875" y2="13.905103125" width="1" layer="16"/>
 <wire x1="49.684078125" y1="16.57381875" x2="49.684078125" y2="15.96119375" width="1" layer="16"/>
 <wire x1="49.684078125" y1="15.96119375" x2="49.373321875" y2="15.6504375" width="1" layer="16"/>
-<wire x1="49.373321875" y1="13.905103125" x2="50.6074625" y2="12.6709625" width="1" layer="16"/>
-<wire x1="50.6074625" y1="12.6709625" x2="53.3109625" y2="12.6709625" width="1" layer="16"/>
-<wire x1="53.3109625" y1="12.6709625" x2="55.88" y2="15.24" width="1" layer="16"/>
-<wire x1="55.88" y1="15.24" x2="56.27761875" y2="15.24" width="1" layer="16"/>
-<wire x1="82.1631875" y1="10.56779375" x2="84.29539375" y2="12.7" width="1" layer="16"/>
-<wire x1="84.29539375" y1="12.7" x2="88.9" y2="12.7" width="1" layer="16"/>
-<wire x1="56.27761875" y1="15.24" x2="60.949825" y2="10.56779375" width="1" layer="16"/>
-<wire x1="60.949825" y1="10.56779375" x2="82.1631875" y2="10.56779375" width="1" layer="16"/>
+<wire x1="49.373321875" y1="13.905103125" x2="53.118425" y2="10.16" width="1" layer="16"/>
+<wire x1="86.36" y1="10.16" x2="88.9" y2="12.7" width="1" layer="16"/>
+<wire x1="53.118425" y1="10.16" x2="86.36" y2="10.16" width="1" layer="16"/>
 </signal>
 <signal name="N$9">
 <contactref element="R3" pad="1"/>
