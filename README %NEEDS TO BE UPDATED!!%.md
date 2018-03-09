@@ -8,7 +8,9 @@ The plan for the following is to have a client side for the mentioned informatio
 
 ### what I'm using
 
-As mentioned; an ESP8266 feather from Adafruit {INSERT LINK OF THIS DEVICE}. to run the basic operations needed before designing the PCB
+As mentioned; a [HUZZAH feather](https://www.adafruit.com/product/2821) with ESP8266 from Adafruit {INSERT LINK OF THIS DEVICE}. to run the basic operations needed before designing the PCB. Where I'll be using [this](https://www.adafruit.com/product/2491).
+
+To set everything up, I've been following the [tutorials given by Adafruit](https://learn.adafruit.com/adafruit-feather-huzzah-esp8266)
 
 ## SOFTWARE
 
