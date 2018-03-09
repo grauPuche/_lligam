@@ -6,7 +6,7 @@ The plan for the following is to have a client side for the mentioned informatio
 
 ## HARDWARE
 
-**as of march 8th**, .ino code working, X & Y values are not showing properly. either a hardware.wiring problem, or a code/pinout issue. the issue is that I was dumb enough to switch the meaning of analog with PWD. and feather only has one analogRead Pin.
+**as of march 8th**, .ino code working, X & Y values are not showing properly. either a hardware.wiring problem, or a code/pinout issue. the issue is that I was dumb enough to switch the meaning of analog with PWD. and feather only has one analogRead Pin. Wiring has to be UPDATED.
 
 
 ### what I'm using
