@@ -6,6 +6,8 @@ The plan for the following is to have a client side for the mentioned informatio
 
 ## HARDWARE
 
+**as of march 8th**, .ino code working, X & Y values are not showing properly. either a hardware.wiring problem, or a code/pinout issue.
+
 ### what I'm using
 
 As mentioned; a [HUZZAH feather](https://www.adafruit.com/product/2821) with ESP8266 from Adafruit {INSERT LINK OF THIS DEVICE}. to run the basic operations needed before designing the PCB. Where I'll be using [this](https://www.adafruit.com/product/2491).
