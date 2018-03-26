@@ -1,6 +1,6 @@
 int yPin = A0;
 int xPin = A1;
-int kPin = 7;
+int kPin = 2;
 
 int yValue = 0;  
 int xValue = 0;

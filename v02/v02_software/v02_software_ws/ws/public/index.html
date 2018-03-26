@@ -1,0 +1,72 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <style>
+        h4 {
+            color: blue;
+            font-size: 90px
+        }
+
+        h4 em {
+            color: blueviolet;
+            font-size: 75px;
+            margin-left: 30px;
+        }
+
+        table {
+            width: 80%;
+            margin: auto;
+            text-align: left;
+            font-size: 50px;
+        }
+
+        hr {
+            margin-bottom: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>
+        ws display page
+    </h1>
+    <h3>
+        this page shows the data send by the
+        <strong>ESP8266</strong>
+    </h3>
+    <hr>
+    <table>
+        <tr>
+            <th>ESP8266</th>
+        </tr>
+        <td id="connection">DISCONNECTED</td>
+        </tr>
+    </table>
+    <br>
+    <table>
+        <tr>
+            <th>DATA</th>
+        </tr>
+        <tr>
+            <td id="x">X,
+                <strong>0000</strong>
+            </td>
+        </tr>
+        <tr>
+            <td id="y">Y,
+                <strong>0000</strong>
+            </td>
+        </tr>
+        <tr>
+            <td id="k">K,
+                <strong>LOW</strong>
+            </td>
+        </tr>
+    </table>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js">
+    </script>
+    <script src="client.js"></script>
+</body>
+
+</html>

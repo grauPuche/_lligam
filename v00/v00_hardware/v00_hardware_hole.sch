@@ -4141,9 +4141,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND2" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND3" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND4" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="GND6" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND7" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="SUPPLY1" library="SparkFun-PowerSymbols" deviceset="VCC" device=""/>
 <part name="SUPPLY2" library="SparkFun-PowerSymbols" deviceset="VCC" device=""/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SUPPLY4" library="SparkFun-PowerSymbols" deviceset="VCC" device=""/>
@@ -4190,9 +4188,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="GND2" gate="1" x="190.5" y="83.82" rot="R180"/>
 <instance part="GND3" gate="1" x="198.12" y="83.82" rot="R180"/>
 <instance part="GND4" gate="1" x="205.74" y="83.82" rot="R180"/>
-<instance part="GND6" gate="1" x="132.08" y="15.24" rot="R180"/>
 <instance part="GND7" gate="1" x="0" y="81.28" rot="R180"/>
-<instance part="SUPPLY1" gate="G$1" x="124.46" y="12.7"/>
 <instance part="SUPPLY2" gate="G$1" x="0" y="96.52"/>
 <instance part="GND8" gate="1" x="58.42" y="30.48"/>
 <instance part="SUPPLY4" gate="G$1" x="58.42" y="63.5"/>
