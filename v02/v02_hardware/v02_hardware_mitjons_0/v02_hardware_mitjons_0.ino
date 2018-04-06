@@ -22,7 +22,7 @@ void webSocketEvent(WStype_t type, uint8_t * payload, size_t length) {
         USE_SERIAL.printf("[WSc] Connected to url: %s\n", payload);
 
         // send message to server when Connected
-        webSocket.sendTXT("Connected");
+        webSocket.sendTXT("Connected"); // showing undefined on node console
       }
       break;
     case WStype_TEXT:
@@ -99,22 +99,18 @@ void setup() {
 
 }
 
-
-
-
-
-
-
-
 void loop() {
   yValue = analogRead(yPin);
 //  xValue = analogRead(xPin);
   kValue = digitalRead(kPin);
 
-  Serial.print(yValue);
-  Serial.print(", ");
-  Serial.println(kValue);
-  delay(1000);
+//  Serial.print(yValue);
+//  Serial.print(", ");
+//  Serial.println(kValue);
+  
+  String coma = ",";
+  webSocket.sendTXT(yValue + coma + kValue);
+  delay(200);
 
   webSocket.loop();
 }
