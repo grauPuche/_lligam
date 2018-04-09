@@ -10,9 +10,17 @@ The plan for the following is to have a client side for the mentioned informatio
 
 **As of april 8th**, the webSocket enabled joystick is completely functional, *.ino* is sending data properly and server is displaying it at [lligam.grrau.co](http://lligam.grrrau.co). There are still some things to be adjusted and others to be added, but the core functionality is working exactly as intended. At this point the next step is building the multiplexer to have both axis of the joystick read by one pin.
 
+![](https://static.notion-static.com/90eba036-f3bd-41c3-8ea9-554eae4aee7c/IMG_0721.JPG)
+
+![](https://static.notion-static.com/e804542c-b7c5-4b6a-bcb5-8a2c318b0a88/IMG_0728.JPG)
+
 ---
 
 **As of march 8th**, *.ino* code working, X & Y values are not showing properly. either a hardware.wiring problem, or a code/pinout issue. the issue is that I was dumb enough to switch the meaning of analog with PWD. and feather only has one analogRead Pin. Wiring has to be UPDATED.
+
+![](https://static.notion-static.com/4cf96f10-eca1-4fd3-bc4c-0970af484f26/IMG_0694.JPG)
+
+![](https://static.notion-static.com/d52967a7-f36d-4b88-961d-2ec546ad3897/IMG_0716.JPG)
 
 ---
 
